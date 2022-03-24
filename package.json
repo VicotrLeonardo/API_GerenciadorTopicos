@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Banco de dados para os projetos Web e Mobile",
+  "main": "db.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "json-server  ./db.json --host 172.18.0.110 --port 3333 " 
+
+  },
+  "author": "VictorLeonardo",
+  "license": "ISC"
+}
